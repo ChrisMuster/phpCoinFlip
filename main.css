@@ -45,3 +45,26 @@ body {
 #T {
 	background-color: #a2a2a2;
 }
+
+.flip {
+	border: 3px solid white;
+	border-radius: 5px;
+	background-color: DarkRed;
+	padding: 3px;
+	margin: 8px;
+}
+
+.flip:hover {
+	background-color: #685104;
+	border: 2px solid white;
+	margin-bottom: 10px;
+}
+
+.flip h2 {
+	margin: 0px;
+	color: white;
+}
+
+.flip h2:hover {
+	font-size: 20px;
+}
