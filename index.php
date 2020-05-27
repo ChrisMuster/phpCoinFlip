@@ -20,11 +20,11 @@
 						$flipCount ++;
 						if ($flip){
 							$headCount ++;
-							echo "<div class=\"coin\" id=\"H\">H</div>";
+							echo '<div class="coin" id="H">H</div>';
 						}
 						else {
 							$headCount = 0;
-							echo "<div class=\"coin\" id=\"T\">T</div>";
+							echo '<div class="coin" id="T">T</div>';
 						}
 					}
 					echo "<p>It took {$flipCount} flips!</p>";	
