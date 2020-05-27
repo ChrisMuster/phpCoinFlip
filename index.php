@@ -7,7 +7,6 @@
 			<link rel="stylesheet" type="text/css" href="styles/main.css">
 	</head>
 	<body>
-		<?php include_once("analyticstracking.php") ?>
 		<div class="main">
 			<h1>Coin Flip!</h1>
 			<p>How many flips will it take to get 3 Heads in a row?</p>
