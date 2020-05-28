@@ -1,0 +1,71 @@
+body {
+	background-color: #5f6066;
+}
+
+.main {
+	max-width: 800px;
+	background-color: #3a3434;
+	margin: auto;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	padding: 5px;
+}
+
+.cointable {
+	max-width: 90%;
+	min-height: 20px;
+	background-color: DarkRed;
+	margin: auto;
+	border-radius: 5px;
+	text-align: center;
+	padding: 5px 5px 10px 5px;
+}
+
+.coin {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 2px solid #685104;
+	text-align: center;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	color: white;
+	margin: 10px;
+	display: inline-block;
+	line-height: 50px;
+	font-size: 20px;
+}
+
+#H {
+	background-color: #a78b2c;
+}
+
+#T {
+	background-color: #a2a2a2;
+}
+
+.flip {
+	border: 3px solid white;
+	border-radius: 5px;
+	background-color: DarkRed;
+	padding: 3px;
+	margin: 8px;
+}
+
+.flip:hover {
+	background-color: #685104;
+	border: 2px solid white;
+	margin-bottom: 10px;
+}
+
+.flip h2 {
+	margin: 0px;
+	color: white;
+}
+
+.flip h2:hover {
+	font-size: 20px;
+}
