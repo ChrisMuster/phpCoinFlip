@@ -7,11 +7,11 @@
 		$flipCount ++;
 		if ($flip){
 			$headCount ++;
-			$coins .= '<div class="coin" id="H">H</div>';
+			$coins .= '<div class="coin H">H</div>';
 		}
 		else {
 			$headCount = 0;
-			$coins .= '<div class="coin" id="T">T</div>';
+			$coins .= '<div class="coin T">T</div>';
 		}
 	}
 
